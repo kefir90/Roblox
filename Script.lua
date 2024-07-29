@@ -394,43 +394,6 @@ Tab:AddParagraph("Credits-⭐","All Coded And Made By emrickEXE")
 Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
-
---[[
-Name = <string> - The name of the tab.
-Icon = <string> - The icon of the tab.
-PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
-]]
---[[
-Name = <string> - The name of the button.
-Callback = <function> - The function of the button.
-]]
---[[
-Name = <string> - The name of the tab.
-Icon = <string> - The icon of the tab.
-PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
-]]
---[[
-Name = <string> - The name of the button.
-Callback = <function> - The function of the button.
-]]
-local Tab = Window:MakeTab({
-    Name = "TRADE SCAM",
-    Icon = "rbxassetid://4483345998",
-    PremiumOnly = false
-})
-Tab:AddButton({
-	Name = "Lag",
-	Callback = function()
-      		OrionLib:MakeNotification({
-	Name = "Lagging...",
-	Content = "Lagging...",
-	Image = "rbxassetid://4483345998",
-	Time = 120
-})
---[[
-Name = <string> - The name of the button.
-Callback = <function> - The function of the button.
-]]
 --[[
 Name = <string> - The name of the tab.
 Icon = <string> - The icon of the tab.
