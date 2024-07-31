@@ -34,7 +34,7 @@ Name = <string> - The name of the tab.
 Icon = <string> - The icon of the tab.
 PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
 ]]
-Tab:AddParagraph("Read Before Using❗","First Step is click to select ur equipped gun make sure u got a gun equipped this will not work if the first step has been skipped, Second Step and the final step is click the dupe button and wait 1-2 minutes")
+Tab:AddParagraph("Read Before Using❗","First Step is click to select ur equipped gun make sure u got a gun equipped this will not work if the first step has been skipped, Second Step and the final step is click the dupe button and wait 4-5 minutes")
 Tab:AddButton({
 	Name = "Click to select Equipped-Gun 🔫",
 	Callback = function()
@@ -59,9 +59,9 @@ Tab:AddButton({
 	Callback = function()
 OrionLib:MakeNotification({
 	Name = "Duping Guns...⏳",
-	Content = "Duping is in process-[Takes around 1-2 minutes]-Dont leave the game❗",
+	Content = "Duping is in process-[Takes around 4-5 minutes]-Dont leave the game❗",
 	Image = "rbxassetid://4483345998",
-	Time = 120
+	Time = 300
 })
 OrionLib:MakeNotification({
 	Name = "Read-[📕]",
@@ -81,8 +81,8 @@ Time = <number> - The duration of the notfication.
   	end    
 })
 
-Tab:AddParagraph("Script Successfully Loaded❗","Enjoy The Script, Youtube is ")
-Tab:AddParagraph("Note❗","This Duping Process Can Only Dupe 2 items per Dupe-Process So Two Items Per 1-2 minutes❗But it is the only working dupe method🔨 ")
+Tab:AddParagraph("Script Successfully Loaded❗","Enjoy The Script")
+Tab:AddParagraph("Note❗","This Duping Process Can Only Dupe 2 items per Dupe-Process So Two Items Per 4-5 minutes❗But it is the only working dupe method🔨 ")
 local Tab = Window:MakeTab({
     Name = "Dupe Knives 🔪",
     Icon = "rbxassetid://4483345998",
@@ -94,7 +94,7 @@ Name = <string> - The name of the tab.
 Icon = <string> - The icon of the tab.
 PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
 ]]
-Tab:AddParagraph("Read Before Using❗","First Step is click to select ur equipped Knife make sure u got a Knife equipped this will not work if the first step has been skipped, Second Step and the final step is click the dupe button and wait 1-2 minutes")
+Tab:AddParagraph("Read Before Using❗","First Step is click to select ur equipped Knife make sure u got a Knife equipped this will not work if the first step has been skipped, Second Step and the final step is click the dupe button and wait 4-5 minutes")
 Tab:AddButton({
 	Name = "Click to select Equipped-Knife 🔪",
 	Callback = function()
@@ -119,9 +119,9 @@ Tab:AddButton({
 	Callback = function()
 	OrionLib:MakeNotification({
 	Name = "Duping Knives..⏳",
-	Content = "Duping is in process-[Takes Around 1-2 minutes] Dont Leave The Game❗",
+	Content = "Duping is in process-[Takes Around 4-5 minutes] Dont Leave The Game❗",
 	Image = "rbxassetid://4483345998",
-	Time = 120
+	Time = 300
 })
     OrionLib:MakeNotification({
 	Name = "Read-[📕]",
